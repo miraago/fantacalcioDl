@@ -1,2 +1,24 @@
+git add .
+git commit -m "aggiunta della pagina html"
+git push
 
+
+
+
+
+vedere il sito online
+https://miraago.github.io/fantacalcioDl/
+
+
+
+Come pubblicare il sito su GitHub Pages
+Vai su https://github.com/miraago/fantacalcioDl
+
+Clicca sulla tab “Settings” (in alto nel menu del repo)
+Scorri il menu laterale sinistro e clicca su “Pages” (potrebbe essere sotto “Code and automation” o “Deploy”)
+Nella sezione “GitHub Pages”, trova “Source”:
+Scegli Deploy from a branch
+In Branch, seleziona main
+In Folder, seleziona / (root)
+Clicca su Save
 
