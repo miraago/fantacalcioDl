@@ -1,0 +1,77 @@
+.bottone {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  border: 0;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.bottone:hover {
+  background-color: rgba(63, 68, 73, 0.6);
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: rgba(2, 7, 32, 0.4);
+}
+
+#navbar {
+  background-image: url("../../Assets/img/liquid-background.jpg");
+  background-size: auto 100%;
+}
+#navbar div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.bottone img {
+  width: 30px;
+  height: 30px;
+}
+.bottone:hover img {
+  width: 35px;
+  height: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+.titolo {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
