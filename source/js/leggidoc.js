@@ -15,7 +15,7 @@ function parseHtmlContent(html) {
   const contenutoParagrafi = document.getElementById("contenuto_paragrafi");
 
   if (!elencoCapitoli || !contenutoParagrafi) {
-    console.error("Elementi HTML non trovati.");
+    console.error("Elementi HTML non trovati. ");
     return;
   }
 

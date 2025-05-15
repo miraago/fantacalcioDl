@@ -2,6 +2,7 @@ let UL_TAG;
 let SECTION_TAGS;
 let LI_TAGS_BOX_SX;
 let LI_TAGS_BOX_DX;
+let tempm;
 document.addEventListener("capitoliCreati", () => {
   LI_TAGS_BOX_SX = document.querySelectorAll("#elenco_capitoli li");
   UL_TAG = document.getElementById("elenco_capitoli");

@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("footer").innerHTML = data;
     })
     .catch((error) =>
-      console.error("Errore nel caricamento del footer:", error)
+      console.error("Errore nel caricamento del footer : ", error)
     );
 });

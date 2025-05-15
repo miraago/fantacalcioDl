@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("header").innerHTML = data;
     })
     .catch((error) =>
-      console.error("Errore nel caricamento dell'header:", error)
+      console.error("Errore nel caricamento dell'header: ", error)
     );
 });
