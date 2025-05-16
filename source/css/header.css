@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
 /* Intestazione */
 #header {
-  background-color: #164574;
+  background-color: #0362bf;
   color: white;
   text-align: center;
   padding: 19px;

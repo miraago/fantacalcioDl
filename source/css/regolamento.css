@@ -54,6 +54,7 @@ li {
   font-weight: 300;
   font-family: "Oswald";
   padding: 40px 10px;
+  margin-bottom: 0;
 }
 
 /* ul contenente tutti gli li del box di sinistra */
@@ -84,11 +85,14 @@ li {
   display: none;
 }
 
-.clicked {
+#elenco_capitoli li.clicked {
   color: white;
   font-weight: bold;
   text-decoration: underline;
   background-color: #0362bf;
+}
+#elenco_capitoli li.clicked:hover {
+  color: white;
 }
 
 /* BOX DI DESTRA */
@@ -127,4 +131,12 @@ li {
   color: blue;
   text-decoration: dotted;
   display: inline;
+}
+
+table,
+tr,
+thead,
+tbody,
+td {
+  text-align: center;
 }

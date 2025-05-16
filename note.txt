@@ -4,8 +4,6 @@ git push
 
 
 
-
-
 vedere il sito online
 https://miraago.github.io/fantacalcioDl/
 
